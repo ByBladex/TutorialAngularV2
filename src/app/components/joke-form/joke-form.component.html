@@ -1,0 +1,10 @@
+<div>
+    <h4>Create Joke</h4>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter the setup" #setup>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter the punchline" #punchline>
+    </div>
+    <button type="button" (click)="createJoke(setup.value, punchline.value)">Create Joke</button>
+</div>

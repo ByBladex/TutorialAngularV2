@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "TutorialV2"
+  "defaultProject": "TutorialV2",
+  "cli": {
+    "analytics": "52b2bdab-f03e-469b-8057-c7222461b625"
+  }
 }
